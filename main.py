@@ -33,6 +33,7 @@ def print_cover():
 ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
 """)
 
+# You can customize this function to search for the type of usernames you want
 def generate_username():
     letras = string.ascii_lowercase
     return ''.join(random.choice(letras) for _ in range(4))
