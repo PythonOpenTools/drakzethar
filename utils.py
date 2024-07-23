@@ -2,7 +2,6 @@ import requests
 from requests.auth import HTTPProxyAuth
 import warnings
 
-# Desactivar todas las advertencias
 warnings.filterwarnings('ignore')
 
 print("You must setup proxy config.")
@@ -12,13 +11,11 @@ print("")
 proxy_username = input("Enter your brightdata proxy's username: ")
 proxy_pass = input("Enter your brightdata proxy's password: ")
 
-# Datos del proxy
 proxy = {
     "http": f"http://{proxy_username}:{proxy_pass}@brd.superproxy.io:22225",
     "https": f"http://{proxy_username}:{proxy_pass}@brd.superproxy.io:22225"
 }
 
-# Autenticación del proxy
 proxy_auth = HTTPProxyAuth(f'{proxy_username}', f'{proxy_pass}')
 
 def check_username(username):
