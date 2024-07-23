@@ -41,3 +41,7 @@
 ## Demo
 
 Watch the demo video on YouTube: https://youtu.be/1IUG4GTAdas
+
+## ⚠️ Educational Only
+
+The "Drakzethar" tool is intended for educational purposes only. Use it responsibly and ethically. Unauthorized use against any system or service is strictly prohibited and may be against the law.
